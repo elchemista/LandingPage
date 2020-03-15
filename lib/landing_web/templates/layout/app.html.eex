@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <link rel="icon" type="image/x-icon" href='<%= Routes.static_path(@conn, "/favicon.ico") %>' />
+    <title>Elchemista</title>
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+    <%= csrf_meta_tag() %>
+  </head>
+  <body >
+    <div id="space"></div>
+    <p class="title">
+        <span style="color: #AFEEEE;">:elchemista</span></br>
+        <span style="color:#964B00;">|> </span><span style="color:#008080;">Coming</span><span style="color:white;">.soon()</span>
+    </p>
+    <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>
